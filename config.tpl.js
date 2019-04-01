@@ -3,9 +3,9 @@
 
 module.exports = function(config) {
   config.set({
-    browsers : ['Firefox']
-  });
-};
+    browsers : ['Firefox', 'FirefoxDeveloper', 'FirefoxAurora', 'FirefoxNightly'],
+  }),
+},
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '%BASE_PATH%',
 
